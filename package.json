@@ -1,0 +1,25 @@
+{
+	"name": "fmentor-nft-block",
+	"version": "1.0.0",
+	"description": "nft project with display block",
+	"main": "index.js",
+	"scripts": {
+		"dev": "sass --watch scss/main.scss css/main.css",
+		"build": "sass scss/main.scss css/main.css",
+		"lint": "prettier --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/al3xback/fmentor-nft-block.git"
+	},
+	"author": "alex <al3xback@gmail.com>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/al3xback/fmentor-nft-block/issues"
+	},
+	"homepage": "https://github.com/al3xback/fmentor-nft-block#readme",
+	"devDependencies": {
+		"prettier": "^2.8.8",
+		"sass": "^1.62.1"
+	}
+}
