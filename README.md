@@ -20,7 +20,7 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Legacy block approach
+- Display block approach
 - Mobile-first workflow
 
 ## Author
