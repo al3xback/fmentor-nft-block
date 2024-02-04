@@ -1,5 +1,4 @@
 main,
-main > .container,
-main > .container::before {
+main > .container {
 	min-height: inherit;
 }
