@@ -61,8 +61,13 @@
 	clear: both;
 }
 
-.card__stats-list-item {
+.card__stats-list-item,
+.card__stats-list-item > *,
+.card__author > * {
 	float: left;
+}
+
+.card__stats-list-item {
 	max-width: 50%;
 	min-height: 1px;
 	font-size: func.em(15);
@@ -75,11 +80,6 @@
 
 .card__stats-list-item:last-child {
 	float: right;
-}
-
-.card__stats-list-item > *,
-.card__author > * {
-	float: left;
 }
 
 .card__stats-list-item i {
